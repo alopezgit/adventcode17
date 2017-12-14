@@ -50,7 +50,8 @@ print 'Part one: severity is {:d}'.format(get_severity(firewalls)[0])
 dict_pos = {}
 
 ## Initial delay
-delay = 2000000
+delay = 3000000
+
 ## Initial position
 if delay > 0:
     for i in range(delay):
