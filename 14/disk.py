@@ -41,8 +41,7 @@ total_1 = 0
 matrix = []
 for i in range(128):
     puzzle_input_i = puzzle_input + '-' + str(i)
-    dense_hash = get_hash(puzzle_input_i)
-     ## equals to hexadecimal
+    dense_hash = get_hash(puzzle_input_i) 
     dense_hash = ''.join(dense_hash)
     num_of_bits = 4
     string_bits = ''.join([bin(int(element, 16))[2:].zfill(4) for element in dense_hash])
